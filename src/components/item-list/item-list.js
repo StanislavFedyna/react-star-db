@@ -4,7 +4,7 @@ import './item-list.css';
 import Spinner from '../spinner';
 
 export default class ItemList extends Component {
-
+  
   swapiService = new SwapiService();
 
   state = {
@@ -22,6 +22,7 @@ export default class ItemList extends Component {
   }
   render() {
     const { peopleList } = this.state;
+    
 
     if(!peopleList){
       return <Spinner/>
