@@ -10,7 +10,7 @@ import './app.css';
 class App extends React.Component{
 
   state = {
-    selectedPerson: 1
+    selectedPerson: null
   }
 
   onPersonSelected = (id) =>{
